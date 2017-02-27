@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <com.zsml.chaoedittext.ClearEditText
+            android:id="@+id/activity_login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+			android:padding="15dp"
+            android:background="#fff"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="请输入手机号"
+            android:inputType="number"
+            android:maxLength="11"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textSize="17sp" >
+
+            <requestFocus />
+        </com.zsml.chaoedittext.ClearEditText>
+
+</RelativeLayout>
